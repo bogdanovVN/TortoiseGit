@@ -1,0 +1,21 @@
+namespace _05.Sequence_2k_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var n = int.Parse(Console.ReadLine());
+            int num = 1;
+            while (num <= n)
+            {
+                Console.WriteLine(num);
+                num = 2 * num + 1;
+            }
+
+            //for (int number = 1; number <= n; number = (2 * number) + 1)    primer s for
+            //{
+            //    Console.WriteLine(number);
+            //}
+        }
+    }
+}
