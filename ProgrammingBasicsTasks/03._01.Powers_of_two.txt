@@ -1,6 +1,6 @@
-namespace test111
+namespace Powers of two
 {
-    class Program
+    class Powers of two
     {
         static void Main(string[] args)
         {
