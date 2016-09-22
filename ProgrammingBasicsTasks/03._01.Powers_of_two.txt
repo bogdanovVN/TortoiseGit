@@ -6,7 +6,7 @@ namespace Powers of two
         {
             var n = int.Parse(Console.ReadLine());
 
-            var number = 1;
+            var number = 100000;
             for (int exponent = 0; exponent <= n; exponent++)
             {
                 Console.WriteLine(number);
@@ -15,4 +15,3 @@ namespace Powers of two
         }
     }
 }
-Resolving conflict
