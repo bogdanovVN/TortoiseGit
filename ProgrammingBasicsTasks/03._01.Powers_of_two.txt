@@ -15,19 +15,3 @@ namespace Powers of two
         }
     }
 }
-
-namespace _03._01.Poers_of_two
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var n = int.Parse(Console.ReadLine());
-
-            for (int currentNumber = 1; currentNumber <= Math.Pow(2, n); currentNumber *= 2)
-            {
-                Console.WriteLine(currentNumber);
-            }
-        }
-    }
-}
